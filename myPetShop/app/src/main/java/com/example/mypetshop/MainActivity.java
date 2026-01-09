@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         //START HERE
         //Pet pet = new Pet(""); // empty string (allowed, still a string)
-        Cat cat = new Cat("Lucy");
+        Cat cat = new Cat("Lucy"); // Pet cat = new Cat(""); is also allowed
         Dog dog = new Dog("Snoopy");
         Scorpion scorpion = new Scorpion("Scorponok");
 
@@ -36,9 +36,11 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Pettable> pettablePets = new ArrayList<Pettable>();
         pettablePets.add(cat);
         pettablePets.add(dog);
-        //pettablePets.add(scorpion); // This should produce an error, Scorpions are not pettable
-
+        /*
+        pettablePets.add(scorpion); // This should produce an error, Scorpions are not pettable (Scorpion.java does not implement Pettable interface)
+        */
         //TODO: show usage for Mood: HappyMood and SadMood
+
 
     }
 }

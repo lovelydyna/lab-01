@@ -9,7 +9,7 @@
 3. Refer to the lab 1 slides for more information.
 
 ## 2. Walkthrough
-
+∞∞
 1. Create a new `PetShop` project on Android Studio (File > New > New Project > Select "Empty Views Activity").
 
     > [!WARNING]

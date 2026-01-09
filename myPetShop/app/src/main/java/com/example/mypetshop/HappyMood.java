@@ -12,7 +12,7 @@ public class HappyMood extends Mood{
     }
 
     @Override
-    public String describe() {
+    public String getMood() {
         return "happy";
     }
 }
