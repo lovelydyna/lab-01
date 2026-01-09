@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         /*
         pettablePets.add(scorpion); // This should produce an error, Scorpions are not pettable (Scorpion.java does not implement Pettable interface)
         */
-        //TODO: show usage for Mood: HappyMood and SadMood
+
 
 
     }
